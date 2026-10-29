@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // SOLO PARA PRÁCTICAS TEMPORALES. Sin autenticación, cualquiera con acceso al proyecto puede modificar datos.
+    match /items/{itemId} {
+      allow read, write: if request.time < timestamp.date(2026, 11, 15);
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "572980439256",
+    "project_id": "semana07-catalogo",
+    "storage_bucket": "semana07-catalogo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572980439256:android:3a9ab7eb45a8d560630fad",
+        "android_client_info": {
+          "package_name": "com.example.semana07_firestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDxBP5IwGdrmhyL2WaU80vD1lgveEOGYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
